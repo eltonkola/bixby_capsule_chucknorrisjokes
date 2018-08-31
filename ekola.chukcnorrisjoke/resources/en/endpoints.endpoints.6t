@@ -1,0 +1,24 @@
+endpoints {
+    authorization {
+      none
+     }
+    
+  action-endpoints {
+    
+    action-endpoint (FindRandomJoke) {
+      accepted-inputs ()
+      local-endpoint (FindRandomJoke.js)
+    }
+    
+    action-endpoint (GetByCategoryJoke) {
+      accepted-inputs (category)
+      local-endpoint (GetByCategoryJoke.js)
+    }
+    
+    action-endpoint (SearchJoke) {
+      accepted-inputs (term)
+      local-endpoint (SearchJoke.js)
+    }
+    
+  }
+}

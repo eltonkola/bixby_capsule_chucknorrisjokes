@@ -1,0 +1,5 @@
+
+dialog (Result) {
+  match: Joke (this)
+  template("Here is a joke for you: ")
+}

@@ -1,0 +1,33 @@
+<layout type="details">
+  <match>
+    Joke (joke)
+  </match>
+  
+  <style>
+    .photo{
+      width: 60px;
+      height: 60px;
+    }
+    .description{
+      width: match;
+      height: wrap;
+      float:left;
+    }
+  </style>
+  
+  <content>
+    
+    <div class="photo" style="background-image: url({{#try}}{{joke.joke_icon_url}}{{/try}})"></div>
+    <div class="description">
+      {{#try}}
+        {{joke.joke_value}}
+      {{/try}}
+    </div>
+ 
+  </content>
+  
+  
+</layout>
+
+
+

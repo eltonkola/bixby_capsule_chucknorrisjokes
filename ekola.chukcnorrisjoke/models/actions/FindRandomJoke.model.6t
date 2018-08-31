@@ -1,0 +1,5 @@
+action (FindRandomJoke) {
+  type(Search)
+  description (find a chuck norris joke)
+  output (Joke)
+}

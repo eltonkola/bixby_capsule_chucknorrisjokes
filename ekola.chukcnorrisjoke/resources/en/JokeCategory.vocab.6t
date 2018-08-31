@@ -1,0 +1,18 @@
+vocab (JokeCategory) {
+  "explicit" { "explicit" }
+  "dev"    { "dev" }
+  "movie"     { "movie" }
+  "food"    { "food" }
+  "celebrity"    { "celebrity" }
+  "science"    { "science" }
+  "sport"       { "sport" }
+  "political"     { "political" }
+  "religion"     { "religion" }
+  "animal"   { "animal" }
+  "history" { "history" }
+  "music" { "music" }  
+   "travel" { "travel" }
+   "career" { "career" }
+   "money" { "money" }
+   "fashion" { "fashion" }
+}

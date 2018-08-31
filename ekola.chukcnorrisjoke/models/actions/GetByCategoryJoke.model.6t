@@ -1,0 +1,11 @@
+action (GetByCategoryJoke) {
+  type(Search)
+  description (get a random joke on a category)
+  collect {
+    input (category) {
+      type (JokeCategory)
+      min (Required) max (One)
+    }
+  }
+  output (Joke)
+}

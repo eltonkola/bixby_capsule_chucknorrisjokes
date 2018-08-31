@@ -1,0 +1,11 @@
+action (SearchJoke) {
+  type(Search)
+  description (search for a joke by term)
+  collect {
+    input (term) {
+      type (JokeSearch)
+      min (Required) max (One)
+    }
+  }
+  output (Joke)
+}

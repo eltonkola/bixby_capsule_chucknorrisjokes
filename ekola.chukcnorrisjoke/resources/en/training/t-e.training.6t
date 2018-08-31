@@ -1,0 +1,4 @@
+train (t-ebvt0pq3c4d4ie9oixsqakzlw) {
+  utterance ("[g:Joke] tell me a joke about {[g:JokeCategory] (history)[v:JokeCategory:history]}")
+  plan (Y2BhkErNzs9J1EvOKM1OzssvKsoszsrPTtXzAhIM6tjl3FNLnCqdE0tS0/OLKsEKlXAbAlNHlBpmBkYGJiDJAKYZgTQPEIP4TBA5AA==)
+}

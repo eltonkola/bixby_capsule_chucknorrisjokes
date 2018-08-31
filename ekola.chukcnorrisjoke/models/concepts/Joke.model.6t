@@ -1,0 +1,15 @@
+structure (Joke) {
+  description (a chuck norris joke)
+  property (joke_value) {
+    type (viv.core.Text)
+  }
+  property (joke_id) {
+    type (viv.core.Text)
+  }
+  property (joke_url) {
+    type (viv.core.Text)
+  }
+  property (joke_icon_url) {
+    type (viv.core.Text)
+  }
+}
